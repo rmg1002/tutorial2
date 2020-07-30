@@ -1,0 +1,13 @@
+<body>
+    hospital<br>
+    {{list}}<br>
+    {% for item in list %}
+        <h7>
+            {{item.id}}{{item.sido}}
+            {{item.name}}{{item.medical}}
+            {{item.room}}{{item.tel}}
+            {{item.address}}
+            
+        </h7>
+        {% endfor %}
+</body>
